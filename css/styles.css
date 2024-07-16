@@ -207,10 +207,6 @@ img {
     margin-bottom: 0;
 }
 
-.menu-item {
-    padding: 18px 0;
-}
-
 address {
     margin-left: auto;
 }
@@ -359,7 +355,7 @@ address {
 }
 
 .people-office {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -371,6 +367,7 @@ address {
     padding: 24px 0;
     position: relative;
     transition: color var(--ocean) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
 }
 
 .menu-item.studio {
